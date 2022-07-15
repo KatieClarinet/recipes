@@ -8,7 +8,7 @@ const SearchBar = () => {
     const query = new URLSearchParams(search).get('s');
     console.log(query)
     const [searchQuery, setSearchQuery] = useState(query || '');
-    
+    // const [recipeShown, setRecipeShown] = useState(false);
 
     const filterdRecipes = (recipes, query) => {
     if (!query) {
