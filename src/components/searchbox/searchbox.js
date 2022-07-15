@@ -3,7 +3,7 @@ import recipes from "../../libs/recipes";
 const SearchBar = () => (
     <><form action="/" method="get">
         <label htmlFor="header-search">
-            <span className="visually-hidden">Search recipes </span>
+            {/* <span className="visually-hidden">Search recipes </span> */}
         </label>
         <br></br>
         <input
